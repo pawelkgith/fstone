@@ -1,0 +1,57 @@
+*
+{
+    background-color: lightgray;;
+}
+
+input
+{
+    margin: 10px;
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    margin-left: 25px;
+    background-color: white;
+    border: 2px solid grey;
+    font-size: 20px;
+}
+
+#sekcja
+{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    margin: auto;
+    margin-top: 200px;
+    border: 2px solid red;
+}
+
+label
+{
+    text-transform: uppercase;
+    color: lightblue;
+    font-family: Tahoma;
+    font-size: 30px;
+    margin-left: 185px;
+    background-color: white;
+}
+
+form
+{
+    background-color: white;
+}
+
+.in
+{
+    color: white;
+    background-color: lightblue;
+    margin-left: 30px;
+    border: none;
+}
+
+p
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}

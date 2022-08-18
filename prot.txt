@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Liga legend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="container">
+        <section id="menu">
+            <section id="tier">
+                <a href="s.php">S tier</a>
+                <a href="a.php">A tier</a>
+                <a href="b.php">B tier</a>
+                <a href="c.php">C tier</a>
+            </section>
+        </section>
+        <section id="main">
+            <h1>Tier lista</h1>
+            <h3>Najbardziej śmieciowych championów w lidze legend</h3>
+            <a href="login.php">Login</a>
+        </section>
+        <section id="tierlist">
+            <a href="s.php"><img src="s.png" id="s"></a>
+            <a href="a.php"><img src="a.png" id="a"></a>
+            <a href="b.php"><img src="b.png" id="b"></a>
+            <a href="c.php"><img src="c.png" id="c"></a>
+        </section>
+        <section id="footer">
+            <form>
+                <label>Ocena</label>
+                <br>
+                <br>
+                <input type="text" name="rate">
+                <br>
+                <br>
+                <input type="submit" value="Wyślij">
+            </form>
+        </section>
+    </section>
+</body>
+</html>
